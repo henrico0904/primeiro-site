@@ -35,6 +35,7 @@ main{
     margin: 0 auto;
     padding: 40px;
     border-radius: 38px;
+    margin-bottom: 40px;
 }
 
 #titulo-sobre-mim{
@@ -49,3 +50,44 @@ main{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/*meus hobbies */
+#meus-hobbies{
+    background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 38px;
+    margin-bottom: 40px;
+}
+.texto-meus-hobbies{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 25px;
+}
+#Meus-Hobbies{
+    font-size: 32px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+li{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-left: 2px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    min-width: 250px;
+}
+
+li:hover{
+    background-color:  rgb(207, 230, 250);
+    transform: translateX(5px);
+    transition: all 0.6s ease;
+}
