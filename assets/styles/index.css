@@ -1,26 +1,50 @@
 /*Reset do CSS */
 * {
   margin: 0;
-  padding: 0;  
+  padding: 0;
+  box-sizing: border-box;  
 }
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    line-height: 1.6;
 }
 
-h1, p{
-    text-align:center;
-    margin: 10px;
-}
 
 header{
-    background-color:rgb(0, 119, 255);
+    background-color:rgb(0, 0, 0);
     color:rgb(255, 255, 255);
     padding:75px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style:oblique
+    font-style:oblique;
+    text-align: center;
 }
 main{
-    height: 600px;
+    background-color: rgb(255, 255, 255);
+    flex: 1;
+    padding: 48px 38px;
+}
+
+#sobre-mim{
+    display: block;
     background-color: aliceblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 38px;
+}
+
+#titulo-sobre-mim{
+    font-size: 32px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.texto-sobre-mim{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
